@@ -1,14 +1,13 @@
 {
-  "name": "hello-mqtt",
+  "name": "hello-mqtt-node",
   "version": "0.0.1",
   "description": "Hello mqtt.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hogelog/node-hello-mqtt.git"
+    "url": "https://github.com/hogelog/hello-mqtt-node.git"
   },
   "keywords": [
     "mqtt",
@@ -17,7 +16,10 @@
   "author": "hogelog",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hogelog/node-hello-mqtt/issues"
+    "url": "https://github.com/hogelog/hello-mqtt-node/issues"
   },
-  "homepage": "https://github.com/hogelog/node-hello-mqtt"
+  "homepage": "https://github.com/hogelog/hello-mqtt-node",
+  "dependencies": {
+    "mqtt": "^1.0.1"
+  }
 }
