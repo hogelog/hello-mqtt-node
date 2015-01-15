@@ -1,7 +1,7 @@
 var mqtt = require("mqtt"),
     config = require("./config.json"),
-    client = mqtt.connect(config);
+    client = mqtt.createClient(config.port, config.host, config.options);
 
-client.publish(config.username + "/hello", "hello");
+client.publish(config.topic + "/hello", "hello");
 
 client.end();
